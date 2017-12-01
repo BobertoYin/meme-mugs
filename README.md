@@ -24,7 +24,9 @@ rotate between front-end development, back-end management, and project
 management.
 
 Eli Parker: https://whenyougetrekt.wixsite.com/portfolio
+
 Bryce Worley:
+
 Robert Yin: https://sircheetos7.wixsite.com/robertyinportfolio
 
 #### About Our Product
