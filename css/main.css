@@ -1,0 +1,535 @@
+/*HEADER*/
+
+/* header text */
+#header-text {
+    font-family: 'Righteous';
+    line-height: 130px;
+    display: inline-block;
+    font-size: 3em;
+    position: relative;
+    top: -40px;
+    margin-left: 15px;
+    cursor: default;
+}
+
+/* styles and aligns the logo */
+.logo-img {
+    display: inline-block;
+}
+
+.logo-img path,
+.logo-img:hover path,
+.logo-img,
+.logo-img:hover {
+    transition: 0.35s ease;
+    -webkit-transition: 0.35s ease;
+    -moz-transition: 0.35s ease;
+    -ms-transition: 0.35s ease;
+    -o-transition: 0.35s ease;
+}
+
+/* changes the mug color on hover */
+.logo-img:hover #path0 {
+    fill: white;
+}
+
+/* changes the "M" color on hover*/
+.logo-img:hover #path1 {
+    fill: #78bc62;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+/* colors the header and sets the height */
+header {
+    background-color: #78bc62;
+    height: 130px;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 5px 10px #a6a6a6;
+}
+
+/* styles hours of operation text */
+.open-hours {
+    font-family: 'Righteous';
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    left: -41.5%;
+    top: -0.5em;
+    cursor: default;
+}
+
+/*NAVIGATION*/
+
+/* styles the navigation */
+.container, 
+.container:focus {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #78bc62;
+    border: none;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+/* positions the navigation */
+nav {
+    position: relative;
+    float: right;
+    right: 51px;
+    top: 50px;
+    cursor: default;
+}
+
+.nav-content {
+    position: fixed;
+    height: 100vh;
+    width: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+    background-color: #111;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
+    transition: 0.5s;
+}
+
+.show {
+    width: 25vw;
+}
+
+.hide {
+    width: 0;
+}
+
+.nav-content a {
+    display: block;
+    margin: 40px 0;
+    padding-left: 7px;
+    font-family: "Roboto Mono";
+    font-size: 1.2em;
+    color: #818181;
+}
+
+/* nav links styling */
+.nav-content a:hover {
+    color: white;
+    cursor: pointer; 
+}
+
+/*SCROLLBAR*/
+
+::-webkit-scrollbar {
+    background-color: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #78bc62;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/*LINKS*/
+
+/*styling of all default links */
+a {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+a:not(td:not(a)):hover {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    color: #406930;
+}
+
+/*BODY*/
+
+/* removes odd spacing of header */
+body {
+    font-family: 'Roboto Mono';
+    margin: 0;
+    padding-top: 130px;
+}
+
+/* body header styling */
+h2 {
+    font-family: "Righteous";
+    text-align: center;
+    padding-top: 0.5em;
+    font-size: 4.5em;
+    margin: 0;
+    cursor: default;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+/* sticky footer */
+.content {
+    min-height: calc(100vh - 240px);
+}
+
+/*FOOTER*/
+
+/* styles footer */
+footer {
+    background-color: #78bc62;
+    font-family: 'Roboto Mono';
+    height: 110px;
+    text-align: center;
+    cursor: default;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+/* styles span in footer */
+span {
+    text-align: center;
+    padding-top: 30px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+/* styles footer text */
+.footer-text {
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+/*FORMS*/
+
+form {
+    padding: 0;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+input {
+    border-radius: 0px;
+    padding: 6.5px;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.searchbox {
+    margin: 1em 1em 0.5em 0.5em;
+    display: inline-block;
+    font-size: 0;
+}
+
+.data-form {
+    width: 50%;
+    display: block;
+    margin: 1em auto 0.75em;
+    background-color: #f2f2f2;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.data-form input,
+.data-form select {
+    margin: 0.8em 1.1em 0.8em 0;
+}
+
+.data-form label {
+    font-size: 1.1em;
+}
+
+.data-form input[type=reset] {
+    border: 2px solid black;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    height: 2.6em;
+}
+
+.data-form input[type=number] {
+    width: 65px;
+}
+
+.data-form input[type=reset], 
+.data-form input[type=reset]:hover,
+.data-form input[type=reset]:active {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+}
+
+.data-form input[type=reset]:hover {
+    cursor: pointer;
+    background-color: #ff3333;
+}
+
+.data-form input[type=reset]:active {
+    background-color: #e60000;
+}
+
+input, 
+input:hover,
+input:active {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #a4d095;
+}
+
+input[type=submit]:active {
+    background-color: #78bc62;
+}
+
+.searchBox {
+    margin-left: 0.6em;
+    margin-right: 0;
+    background-image: url(/images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-position: 4px 4px;
+    padding-left: 3em;
+}
+
+select, option {
+    height: 2.5em;
+    width: 4em;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+select {
+    border: 2px solid black;
+}
+
+label {
+    font-family: "Righteous";
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+.asterisk {
+    color: red;
+}
+
+/* Button for new data entry */
+.new-entry {
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: -0.9em;
+    padding: 0.5em;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+.new-entry, 
+.new-entry:hover,
+.new-entry:active {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+}
+
+.new-entry:hover {
+    cursor: pointer;
+    background-color: #78bc62;
+}
+
+.new-entry:active {
+    background-color: #528f3d;
+}
+
+/* Dropdown lists */
+.genderDropdown {
+    width: 75px;
+}
+
+.sizeDropdown {
+    width: 90px;
+}
+
+.occupationDropdown {
+    width: 100px;
+}
+
+.categoryDropdown {
+    width: 125px;
+}
+
+.memeDropdown {
+    width: 140px;
+}
+
+.customerDropdown {
+    width: 250px;
+}
+
+.productDropdown {
+    width: 285px;
+}
+
+.descBox {
+    resize: none;
+    margin-top: 1em;
+    width: 96%;
+    border: 2px solid black;
+    font-family: 'Roboto Mono';
+    font-size: 0.85em;
+    padding: 0.75em;
+    font-weight: bold;
+}
+
+br,
+b {
+    -webkit-user-select: none;
+    -moz-user-select: none;     
+    -ms-user-select: none;
+}
+
+/*TABLES*/
+
+table {
+    width: 98.15vw;
+    margin: 0.5em auto 1.25em auto;
+    padding: 0;
+    text-align: center;
+    display: table;
+    border-spacing: 0;
+    border: 1px solid black;
+    cursor: default; 
+}
+
+th {
+    padding: 0.5em;
+    font-size: 1.7em;
+    font-family: 'Righteous';
+    border-bottom: 1px solid black;
+    background-color: #a6a6a6;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+
+td {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    font-size: 1.15em;
+    border-bottom: 1px solid black;
+    padding: 20px 8px;
+}
+
+table:last-child {
+    border-bottom: none;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tr {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    min-height: 75px;
+}
+
+tr:not(:first-child):hover {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    background-color: #78bc62;
+}
+
+td a:hover {
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+    -moz-transition: ease 0.3s;
+    -ms-transition: ease 0.3s;
+    -o-transition: ease 0.3s;
+    text-decoration: underline;
+}
+
+/* Aligns the text of certain columns */
+.left-text-align {
+    text-align: left;
+}
+
+/* SELECTED TEXT */
+
+::selection {
+    background-color: #78bc62;
+    color: white;
+}
+
+/* RESPONSIVENESS/MEDIA QUERIES */
+
+@media screen and (max-width: 1192px) {
+    
+    .data-form label,
+    .data-form input,
+    .data-form b,
+    .data-form select,
+    .data-form option {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 1088px) {
+    
+    .data-form label,
+    .data-form input,
+    .data-form b,
+    .data-form select,
+    .data-form option {
+        font-size: .7em;
+    }
+}
