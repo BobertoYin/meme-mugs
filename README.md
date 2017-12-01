@@ -23,6 +23,10 @@ as a combination of a full-stack developer and a project manager. He will
 rotate between front-end development, back-end management, and project
 management.
 
+Eli Parker: https://whenyougetrekt.wixsite.com/portfolio
+Bryce Worley:
+Robert Yin: https://sircheetos7.wixsite.com/robertyinportfolio
+
 #### About Our Product
 
 Butyl Group has designed a proprietary website for Meme Mugs employees
