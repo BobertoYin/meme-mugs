@@ -27,7 +27,7 @@ Eli Parker: https://whenyougetrekt.wixsite.com/portfolio
 
 Bryce Worley:
 
-Robert Yin: https://sircheetos7.wixsite.com/robertyinportfolio
+Robert Yin: https://bobertoyin.github.io/
 
 #### About Our Product
 
